@@ -19,7 +19,7 @@ function Register(){
           name="email"
           placeholder="Your Email"
           value={formData.email}
-          onChange={handleChange}
+        
           required
           className="w-full p-2 mb-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
@@ -30,7 +30,7 @@ function Register(){
     type="date"
     name="dob"
     value={formData.dob}
-    onChange={handleChange}
+  
     required
     className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
   />
