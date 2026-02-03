@@ -1,48 +1,45 @@
-function Register(){
-    return(
-        <div>
-            <h1> Register</h1>
-            <form action="">
-                <label htmlFor="name"> Name :</label>
-                <input
+function Register() {
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <form className="w-72 space-y-3">
+        <h1 className="text-xl font-bold text-center">Register</h1>
+
+        <input
           type="text"
-          name="name"
-          placeholder="Your Name"
-          value={formData.name}
+          placeholder="Name"
           required
-          className="w-full p-2 mb-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full p-2 border rounded"
         />
-                
-                <label htmlFor="Email"> Email :</label>
-               <input
+
+        <input
           type="email"
-          name="email"
-          placeholder="Your Email"
-          value={formData.email}
-        
+          placeholder="Email"
           required
-          className="w-full p-2 mb-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full p-2 border rounded"
         />
 
+        <input
+          type="date"
+          required
+          className="w-full p-2 border rounded"
+        />
 
-                <label htmlFor="DOB"> DOB :</label>
-                <input
-    type="date"
-    name="dob"
-    value={formData.dob}
-  
-    required
-    className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-  />
+        <input
+          type="password"
+          placeholder="Password"
+          required
+          className="w-full p-2 border rounded"
+        />
 
-
-              
-
-                
-            </form>
-
-        </div>
-    )
+        <button
+          type="submit"
+          className="w-full bg-blue-600 text-white p-2 rounded"
+        >
+          Sign Up
+        </button>
+      </form>
+    </div>
+  );
 }
 
 export default Register;
