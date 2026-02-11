@@ -1,16 +1,12 @@
+import input from "../Input/input";
 function Register() {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <form className="w-72 space-y-3">
         <h1 className="text-xl font-bold text-center">Register</h1>
-
-        <input
-          type="text"
-          placeholder="Name"
-          required
-          className="w-full p-2 border rounded"
-        />
-     
+       
+          <input/> 
+  
         <input
           type="email"
           placeholder="Email"
@@ -38,7 +34,9 @@ function Register() {
           Sign Up
         </button>
       </form>
+         
     </div>
+       
   );
 }
 
