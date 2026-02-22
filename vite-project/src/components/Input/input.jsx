@@ -1,8 +1,8 @@
 import React from "react";
-export default function input({LabelName, type, placeholder}){
+export default function input({ type, placeholder}){
     return(
        <div>
-        <label htmlFor="name"> {LabelName}</label>
+      
         <input
           type={type}
           placeholder={placeholder}

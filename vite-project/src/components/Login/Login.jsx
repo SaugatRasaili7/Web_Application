@@ -1,9 +1,9 @@
 import Input from "../Input/input";
-function Register() {
+function Login() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-left">
       <form className="w-72 space-y-3">
-        <h1 className="text-xl font-bold text-center">Register</h1>
+        <h1 className="text-xl font-bold text-center">Login</h1>
        
            <Input type="text" placeholder="Name"/>
                                                                    
@@ -28,8 +28,6 @@ function Register() {
           className="w-full p-2 border rounded"
         />
 
-        <p> Do you have an account? <a href="/login" className="text-blue-600">Login</a></p>
-
         <button
           type="submit"
           className="w-full bg-blue-600 text-white p-2 rounded"
@@ -43,4 +41,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default Login;
