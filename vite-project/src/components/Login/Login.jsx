@@ -1,7 +1,7 @@
 import Input from "../Input/input";
 function Login() {
   return (
-    <div className="min-h-screen flex items-center justify-left">
+    <div className="flex justify-end p-0 m-00-                                                               ">
       <form className="w-72 space-y-3">
         <h1 className="text-xl font-bold text-center">Login</h1>
        
